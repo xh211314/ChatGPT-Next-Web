@@ -127,7 +127,7 @@ function _Home() {
             <ChatGptIcon />
           </div>
         </div>
-
+ 
         <div
           className={styles["sidebar-body"]}
           onClick={() => {
