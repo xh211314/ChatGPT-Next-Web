@@ -22,7 +22,7 @@ import Locale from "../locales";
 import { Chat } from "./chat";
 
 import dynamic from "next/dynamic";
-import { REPO_URL, BUY_URL } from "../constant";
+import { REPO_URL, BUY_URL, HELP_URL } from "../constant";
 import { ErrorBoundary } from "./error";
 
 export function Loading(props: { noLogo?: boolean }) {
@@ -157,14 +157,20 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-                <IconButton
-                  text={Locale.Home.NewChat}
-                  onClick={() => {
-                    createNewSession();
-                    setShowSideBar(false);
-                  }}
-                  shadow
-                />
+                <a href={BUY_URL} target="_blank">
+                  <IconButton 
+                    text={Locale.Home.Buy}  
+                    shadow
+                  />
+                </a>
+            </div>
+            <div className={styles["sidebar-action"]}>
+                <a href={HELP_URL} target="_blank">
+                  <IconButton 
+                    text={Locale.Home.Help}  
+                    shadow
+                  />
+                </a>
             </div>
           </div>
           <div>
