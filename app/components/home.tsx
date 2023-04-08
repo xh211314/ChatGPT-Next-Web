@@ -158,7 +158,8 @@ function _Home() {
             </div>
             <div className={styles["sidebar-action"]}>
               <a href={REPO_URL} target="_blank">
-                <IconButton icon={<GithubIcon />} shadow />
+<!--                 <IconButton icon={<GithubIcon />} shadow /> -->
+                购买服务
               </a>
             </div>
           </div>
