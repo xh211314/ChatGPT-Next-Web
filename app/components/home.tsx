@@ -157,9 +157,7 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href={BUY_URL} target="_blank">
                 <IconButton
-                  icon={<GithubIcon />}
                   text={Locale.Home.NewChat}
                   onClick={() => {
                     createNewSession();
@@ -167,7 +165,6 @@ function _Home() {
                   }}
                   shadow
                 />
-              </a>
             </div>
           </div>
           <div>
