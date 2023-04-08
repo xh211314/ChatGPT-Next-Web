@@ -22,7 +22,7 @@ import Locale from "../locales";
 import { Chat } from "./chat";
 
 import dynamic from "next/dynamic";
-import { REPO_URL } from "../constant";
+import { REPO_URL, BUY_URL } from "../constant";
 import { ErrorBoundary } from "./error";
 
 export function Loading(props: { noLogo?: boolean }) {
@@ -157,8 +157,8 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank">
-                <IconButton icon={<GithubIcon />} shadow />
+              <a href={BUY_URL} target="_blank">
+                <div>获取额度</div>
               </a>
             </div>
           </div>
