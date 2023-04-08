@@ -159,6 +159,7 @@ function _Home() {
             <div className={styles["sidebar-action"]}>
                 <a href={BUY_URL} target="_blank">
                   <IconButton 
+                    icon={<SettingsIcon />}
                     text={Locale.Home.Buy}  
                     shadow
                   />
@@ -167,6 +168,7 @@ function _Home() {
             <div className={styles["sidebar-action"]}>
                 <a href={HELP_URL} target="_blank">
                   <IconButton 
+                    icon={<SettingsIcon />}
                     text={Locale.Home.Help}  
                     shadow
                   />
