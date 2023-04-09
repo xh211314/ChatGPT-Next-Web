@@ -48,6 +48,8 @@ const it: LocaleType = {
       "Resetting will clear the current conversation history and historical memory. Are you sure you want to reset?",
   },
   Home: {
+    Buy: "Buy",
+    Help: "Help",
     NewChat: "Nuova Chat",
     DeleteChat: "Confermare la cancellazione della conversazione selezionata?",
     DeleteToast: "Chat Deleted",
