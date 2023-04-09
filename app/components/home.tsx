@@ -157,9 +157,9 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-                <a href={BUY_URL} target="_blank">
+                <a href={BUY_URL} target="_blank" style={{textDecoration: "None"}}>
                   <IconButton
-                    icon={<BotIcon />}
+                    icon={<ChatGptIcon />}
                     text={Locale.Home.Buy}
                     shadow
                   />
