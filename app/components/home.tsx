@@ -159,7 +159,7 @@ function _Home() {
             <div className={styles["sidebar-action"]}>
                 <a href={BUY_URL} target="_blank">
                   <IconButton
-                    icon={<ChatIcon />}
+                    icon={<BotIcon />}
                     text={Locale.Home.Buy}
                     shadow
                   />
