@@ -46,6 +46,8 @@ const tw: LocaleType = {
     ResetConfirm: "重置後將清空當前對話記錄以及歷史記憶，確認重置？",
   },
   Home: {
+    Buy: "充值",
+    Help: "教程",
     NewChat: "新的對話",
     DeleteChat: "確定要刪除選取的對話嗎？",
     DeleteToast: "已刪除對話",
