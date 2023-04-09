@@ -158,12 +158,11 @@ function _Home() {
             </div>
             <div className={styles["sidebar-action"]}>
                 <a href={BUY_URL} target="_blank">
-                  {Locale.Home.Buy}
-                </a>
-            </div>
-            <div className={styles["sidebar-action"]}>
-                <a href={HELP_URL} target="_blank">
-                  {Locale.Home.Help} 
+                  <IconButton
+                    icon={<ChatIcon />}
+                    text={Locale.Home.Buy}
+                    shadow
+                  />
                 </a>
             </div>
           </div>
