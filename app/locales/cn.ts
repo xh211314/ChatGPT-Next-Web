@@ -45,9 +45,9 @@ const cn = {
     ResetConfirm: "重置后将清空当前对话记录以及历史记忆，确认重置？",
   },
   Home: {
-    Buy: "开通账户",
+    Buy: "账户",
     Help: "教程",
-    NewChat: "新的会话",
+    NewChat: "新会话",
     DeleteChat: "确认删除选中的对话？",
     DeleteToast: "已删除会话",
     Revert: "撤销",
